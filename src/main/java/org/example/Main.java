@@ -28,7 +28,7 @@ public class Main {
 
         probleme.stufeSort(ereignisList);
 
-        probleme.fileWrite(ereignisList, stufePoints);
+        probleme.fileWrite(stufePoints);
 
 
     }

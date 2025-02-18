@@ -21,7 +21,7 @@ public class Probleme {
                 .forEach(e -> System.out.println(e.getDate() + ": " + e.getCharacterName() + " - " + e.getDescription()));
     }
 
-    public void fileWrite(List<Ereignis> ereignisList, HashMap<Stufe, Integer> stufePoints){
+    public void fileWrite(HashMap<Stufe, Integer> stufePoints){
         System.out.println("Ergebnis in gesammtzahl.txt");
         try (FileWriter fileWriter = new FileWriter("gesammtzahl.txt")) {
             stufePoints.entrySet().stream()
