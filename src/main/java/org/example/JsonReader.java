@@ -10,6 +10,13 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
+/**
+ * Class for JSON reading functionalities
+ *
+ * @param "filename" String Type for filepath
+ * @param "List<Ereignis>" List Type
+ */
+
 public class JsonReader {
     public static void readFromJson(String filename, List<Ereignis> ereignise) {
         ObjectMapper objectMapper = new ObjectMapper();
