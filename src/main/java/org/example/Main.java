@@ -15,6 +15,8 @@ public class Main {
         double points = Double.valueOf(scanner.nextLine());
         probleme.characterByPoints(points, ereignisList);
 
+        probleme.stufeSort(ereignisList);
+
 
     }
 }
